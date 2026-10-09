@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kisan Kumar's portfolio — Data Science, Machine Learning, SQL, Python and web development.">
+  <title>Kisan Kumar | Data &amp; Machine Learning Portfolio</title>
+  <style>
+    :root{--bg:#0b1020;--panel:#121a2e;--text:#edf2ff;--muted:#a9b5d0;--accent:#72e0c1;--line:#27334e}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top right,#18274a 0,transparent 45%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(1060px,92%);margin:auto}
+    header{padding:22px 0;border-bottom:1px solid var(--line)}nav{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}.brand{font-weight:800;letter-spacing:.3px;color:var(--text)}nav .links{display:flex;gap:18px;flex-wrap:wrap;font-size:.94rem}
+    .hero{padding:86px 0 66px}.eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}.hero h1{font-size:clamp(2.5rem,7vw,5rem);line-height:1.05;letter-spacing:-2px;margin:16px 0}.hero p{max-width:690px;color:var(--muted);font-size:1.13rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:11px 17px;border:1px solid var(--line);border-radius:12px;font-weight:700}.btn.primary{background:var(--accent);color:#08131a;border-color:var(--accent)}
+    section{padding:42px 0}.section-title{font-size:1.7rem;margin:0 0 18px}.intro{color:var(--muted);max-width:780px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:16px}.card{background:rgba(18,26,46,.88);border:1px solid var(--line);border-radius:18px;padding:22px}.card h3{margin:0 0 8px}.card p{margin:0;color:var(--muted)}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.tag{border:1px solid #33415f;border-radius:999px;padding:4px 10px;color:#d6e1fb;font-size:.83rem}
+    .contact{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:26px}.contact p{color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:40px;padding:25px 0;color:var(--muted);font-size:.9rem}
+    @media(max-width:600px){.hero{padding:62px 0 40px}.hero h1{letter-spacing:-1px}nav .links{gap:12px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav aria-label="Main navigation">
+  <a class="brand" href="#home">KISAN KUMAR</a>
+  <div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+</nav></div></header>
+<main>
+  <section class="hero wrap" id="home">
+    <div class="eyebrow">Data Science · Machine Learning · Python</div>
+    <h1>Turning data into<br>useful insights.</h1>
+    <p>Hi, I’m Kisan Kumar. I’m learning and building in Data Science and Machine Learning, with hands-on practice in Python, SQL, data cleaning, model evaluation, and web APIs.</p>
+    <div class="actions"><a class="btn primary" href="#projects">Explore my work</a><a class="btn" href="#contact">Get in touch</a></div>
+  </section>
+  <section class="wrap" id="about">
+    <h2 class="section-title">About me</h2>
+    <p class="intro">I’m pursuing a Data Science and Machine Learning program with IIT Madras. I enjoy exploring datasets, preparing data for analysis, training baseline models, and improving my technical skills through practical projects and consistent practice.</p>
+  </section>
+  <section class="wrap" id="skills">
+    <h2 class="section-title">Skills &amp; tools</h2>
+    <div class="grid">
+      <article class="card"><h3>Data analysis</h3><p>Inspecting, cleaning, transforming, and understanding datasets.</p><div class="tags"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Jupyter</span></div></article>
+      <article class="card"><h3>Machine learning</h3><p>Building models, evaluating metrics, and practicing feature preparation.</p><div class="tags"><span class="tag">scikit-learn</span><span class="tag">Regression</span><span class="tag">Classification</span><span class="tag">XGBoost</span></div></article>
+      <article class="card"><h3>Databases &amp; development</h3><p>Writing queries, creating APIs, and learning application deployment.</p><div class="tags"><span class="tag">SQL</span><span class="tag">PostgreSQL</span><span class="tag">Flask</span><span class="tag">GitHub</span><span class="tag">Linux</span></div></article>
+    </div>
+  </section>
+  <section class="wrap" id="projects">
+    <h2 class="section-title">Selected projects &amp; practice</h2>
+    <div class="grid">
+      <article class="card"><h3>Customer churn analysis</h3><p>Explored customer data, checked missing values and duplicates, investigated suspicious values, and practiced data-cleaning decisions before modelling.</p><div class="tags"><span class="tag">Pandas</span><span class="tag">EDA</span><span class="tag">Data quality</span></div></article>
+      <article class="card"><h3>eShopCo configuration API</h3><p>Built and tested an API workflow that returns regional service metrics such as latency, uptime, and breach counts.</p><div class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">JSON</span></div></article>
+      <article class="card"><h3>SQL &amp; Linux practice</h3><p>Practiced analytical SQL, window functions, shell scripting, grep, find, and AWK for working with structured text files.</p><div class="tags"><span class="tag">SQL</span><span class="tag">Bash</span><span class="tag">AWK</span></div></article>
+    </div>
+    <p class="intro" style="margin-top:14px">Project descriptions summarize learning work. Add links to your repositories or notebooks when they are ready.</p>
+  </section>
+  <section class="wrap" id="contact">
+    <div class="contact"><h2 class="section-title">Contact</h2><p>I’m open to learning opportunities, collaborations, and conversations about data and technology.</p>
+      <p>Email: <!--email_off-->23f3003555@ds.study.iitm.ac.in<!--/email_off--></p>
+      <p>GitHub: <a href="https://github.com/23F3003555" target="_blank" rel="noopener noreferrer">github.com/23F3003555</a></p>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© <span id="year">2026</span> Kisan Kumar · Built with HTML and CSS.</div></footer>
+</body>
+</html>
